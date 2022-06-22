@@ -1,0 +1,109 @@
+body{
+    background-image: url(img-fondo.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100vw;
+
+}
+.priContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.containerOfRows{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.391);
+}
+button{
+    width: 2.5em;
+    height: 2.5em;
+    background-color: rgb(226, 43, 217);
+    border-style: outset;
+    border-color: rgb(255, 0, 195);
+    color: aliceblue;
+    font-size: 20px;
+}
+.rowZero{
+    width: auto;
+    color: aliceblue;
+}
+.rowOne{
+    background-color: azure;
+    width: 500px;
+    height: 50px;
+    margin: 5px;
+}
+.rowTwo{
+    background-color: azure;
+    width: 30rem;
+    height: 100%;
+}
+.rowThird{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    width: 35em;
+    margin-left: 2em;
+}
+.rowFourth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    width: 35em;
+}
+.deleteKey{
+    width: 8em;
+}
+.rowFive{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    width: 35em;
+}
+.letterMayus{
+    width: 7em;
+}
+.rowSix{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 35em;
+}
+.rowSeven{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    width: 30vw;
+    height: auto;
+}
+#space{
+    width: 100%;
+}
+.rowEight{
+    width: 30em;
+}
+.rowNine{
+    width: auto;
+}
